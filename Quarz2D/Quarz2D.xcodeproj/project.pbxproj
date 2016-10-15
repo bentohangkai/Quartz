@@ -16,6 +16,7 @@
 		1330FD8E1D6FF58A00651B22 /* Quarz2DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330FD8D1D6FF58A00651B22 /* Quarz2DTests.m */; };
 		1330FD991D6FF58A00651B22 /* Quarz2DUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330FD981D6FF58A00651B22 /* Quarz2DUITests.m */; };
 		1330FDA81D6FF78100651B22 /* MJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330FDA71D6FF78100651B22 /* MJView.m */; };
+		13CA33C11DB25DE200AA1828 /* testPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CA33C01DB25DE100AA1828 /* testPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		1330FD9A1D6FF58A00651B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1330FDA61D6FF78100651B22 /* MJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJView.h; sourceTree = "<group>"; };
 		1330FDA71D6FF78100651B22 /* MJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJView.m; sourceTree = "<group>"; };
+		13CA33BF1DB25DE100AA1828 /* testPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testPerson.h; sourceTree = "<group>"; };
+		13CA33C01DB25DE100AA1828 /* testPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		1330FD671D6FF58900651B22 = {
 			isa = PBXGroup;
 			children = (
+				13CA33BF1DB25DE100AA1828 /* testPerson.h */,
+				13CA33C01DB25DE100AA1828 /* testPerson.m */,
 				1330FD721D6FF58900651B22 /* Quarz2D */,
 				1330FD8C1D6FF58A00651B22 /* Quarz2DTests */,
 				1330FD971D6FF58A00651B22 /* Quarz2DUITests */,
@@ -276,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1330FD7B1D6FF58900651B22 /* ViewController.m in Sources */,
+				13CA33C11DB25DE200AA1828 /* testPerson.m in Sources */,
 				1330FDA81D6FF78100651B22 /* MJView.m in Sources */,
 				1330FD781D6FF58900651B22 /* AppDelegate.m in Sources */,
 				1330FD751D6FF58900651B22 /* main.m in Sources */,
